@@ -1,5 +1,10 @@
 @import url(variables.css);
 @import url(global.css);
+body{
+    background-image: url(images/bg-pattern-top.svg), url(images/bg-pattern-bottom.svg);
+    background-repeat: no-repeat;
+    background-position: top -500px left -780px, top 350px right -700px;
+}
 
 .card{
     background-color: white;
