@@ -1,0 +1,17 @@
+html{
+    font-size: 18px;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Kumbh Sans', sans-serif;
+    background-color: var(--darkcyan);
+    background-image: url(/images/bg-pattern-top.svg), url(/images/bg-pattern-bottom.svg);
+    background-repeat: no-repeat;
+    background-position: top -500px left -780px, top 350px right -700px;
+}
+
+span, p{
+    margin: 0;
+}
